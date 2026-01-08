@@ -1,3 +1,6 @@
+# 빙고내기
+<img width="258" height="166" alt="image" src="https://github.com/user-attachments/assets/9ea8d93a-2afe-4f83-b533-bd1245d18cb2" />
+
 ## BaekJoon 11720. 숫자의 합
 
 Python 풀이
