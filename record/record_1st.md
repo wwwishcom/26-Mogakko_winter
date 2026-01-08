@@ -1,5 +1,6 @@
 # 빙고내기
 <img width="258" height="166" alt="image" src="https://github.com/user-attachments/assets/9ea8d93a-2afe-4f83-b533-bd1245d18cb2" />
+모각코에서 한 하단의 백준 풀이 외에도 다양한 문제를 풀어 빙고를 완성시켰다.
 
 ## BaekJoon 11720. 숫자의 합
 
