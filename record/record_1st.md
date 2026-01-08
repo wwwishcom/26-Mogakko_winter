@@ -2,7 +2,7 @@
 
 Python 풀이
 
-[10989번: 수 정렬하기 3](https://www.acmicpc.net/problem/10989)
+[11720번: 숫자의 합](https://www.acmicpc.net/problem/11720)
 
 문자열은 문자들의 리스트처럼 작동한다.
 
@@ -101,7 +101,7 @@ for _ in range(9)를 이용하여 반복하여 입력할 필요가 있어보인�
 
 Python 풀이
 
-[10989번: 수 정렬하기 3](https://www.acmicpc.net/problem/10989)
+[1978번: 소수 찾기](https://www.acmicpc.net/problem/1978)
 
 ```python
 n = int(input())
@@ -126,7 +126,7 @@ print(count)
 
 1은 소수가 아니므로
 
-```c
+```python
 if num == 1:
 ```
 
@@ -134,10 +134,12 @@ if num == 1:
 
 또한 나누어떨어지면 소수가 아니므로 
 
-```c
+```python
 if num % i == 0:
 		is_prime = False
 		break
 ```
 
 코드를 사용했다.
+
+
