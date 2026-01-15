@@ -1,3 +1,8 @@
+# 빙고내기
+<img width="258" height="166" alt="image" src="https://github.com/user-attachments/assets/9ea8d93a-2afe-4f83-b533-bd1245d18cb2" />
+
+모각코에서 한 하단의 백준 풀이 외에도 다양한 문제를 풀어 빙고를 완성시켰다.
+
 ## BaekJoon 2869. 달팽이는 올라가고 싶다
 
 Python 풀이
@@ -32,7 +37,9 @@ while True:
 print(count)
 ```
 어라..
-백준에서 시간 초과라고 떴다
+<img width="1348" height="372" alt="image" src="https://github.com/user-attachments/assets/7a956999-0812-49ad-9d60-0501d8e6a999" />
+
+시간 초과라고 한다
 
 효율이 안 좋다는 말이다.
 
