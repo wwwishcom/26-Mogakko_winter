@@ -29,6 +29,6 @@
 | 회차 | 링크 | 상태 |
 |:---:|:---:|:---:|
 | 1회차 | [1회차 기록](record/record_1st.md) | 3등 |
-| 2회차 | [기록 보기](record/record_2nd.md) | 예정 |
+| 2회차 | [2회차 기록](record/record_2nd.md) | 예정 |
 | 3회차 | [기록 보기](./record_3rd.md) | 예정 |
 | 4회차 | [기록 보기](./record_4th.md) | 예정 |
