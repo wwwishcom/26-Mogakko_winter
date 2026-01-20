@@ -58,7 +58,7 @@ HTML은 <태그>로 작성한다.
   <img width="400" alt="image" src="https://github.com/user-attachments/assets/8ed1900a-b32a-4495-9cd3-c4dba5f039e1" />
 </div>
 
-왼쪽과 같이 뜨고, 링크임을 누르면 구글로 이동한다.
+첫 번째 사진과 같이 뜨고, 링크임을 누르면 구글로 이동한다.
 
 ---
 
