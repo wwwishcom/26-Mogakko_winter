@@ -53,14 +53,12 @@ HTML은 <태그>로 작성한다.
 실제로 과제를 수행한 코드이다.
 
 코드를 실행시키면
-<img width="800" height="533" alt="image" src="https://github.com/user-attachments/assets/97365e00-bd2b-4bfa-bfed-dd78dfa3fa33" />
+<div>
+  <img width="400" alt="image" src="https://github.com/user-attachments/assets/97365e00-bd2b-4bfa-bfed-dd78dfa3fa33" />
+  <img width="400" alt="image" src="https://github.com/user-attachments/assets/8ed1900a-b32a-4495-9cd3-c4dba5f039e1" />
+</div>
 
-이러한 창이 뜨고
-
-링크임을 누르면
-<img width="600" height="533" alt="image" src="https://github.com/user-attachments/assets/8ed1900a-b32a-4495-9cd3-c4dba5f039e1" />
-
-구글로 이동한다.
+왼쪽과 같이 뜨고, 링크임을 누르면 구글로 이동한다.
 
 ---
 
