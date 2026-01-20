@@ -48,7 +48,7 @@ HTML은 <태그>로 작성한다.
 위처럼 태그 안에 태그를 넣는 식으로 구성하면 가능하다!
 
 ### [2강] 과제
-<img width="859" height="423" alt="image" src="https://github.com/user-attachments/assets/4573ea4a-e8b5-4062-a125-79775cef3eef" />
+<img width="759" height="423" alt="image" src="https://github.com/user-attachments/assets/4573ea4a-e8b5-4062-a125-79775cef3eef" />
 
 실제로 과제를 수행한 코드이다.
 
