@@ -143,15 +143,17 @@ Markdown 파일(.md) 안에서 HTML을 바로 사용할 수 있다.
 ### 왜 HTML 문법을 사용했을까?
 정말 많은 것들이 있는데 왜 HTML을 Markdown이 이용했는지 궁금하여 추가로 역사적(?) 배경을 찾아보았다.
 
-1. 웹 문서라서
+**1. 웹 문서이기 때문**
+   
    Markdown은 웹에 표시할 문서를 만드는 언어이다.
    결국 브라우저에서 보여주려면 HTML로 변환되어야 한다.
    Python이나 C는 프로그래밍 언어라서, HTML과 같은 문서 표시 언어를 사용해야한다.
 
-2. 언어적 역할 비교
+**2. 언어적 역할 비교**
+
    <img width="948" height="420" alt="image" src="https://github.com/user-attachments/assets/657b36e0-6ca1-439c-abd4-a2ac51272c58" />
 
-3. 우선 HTML은 너무 복잡하기 때문에 이를 Markdown으로 간단하게 표현
+**3. 우선 HTML은 너무 복잡하기 때문에 이를 Markdown으로 간단하게 표현**
    
    그러나, 결국 브라우저에 보여줄 때는 HTML로 변환한다!
 
