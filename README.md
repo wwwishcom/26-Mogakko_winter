@@ -29,7 +29,7 @@
 ## 회차별 진행 현황
 | 회차 | 링크 | 상태 |
 |:---:|:---:|:---:|
-| 1회차 | [1회차 기록](record/record_1st.md) | 3등 |
-| 2회차 | [2회차 기록](record/record_2nd.md) | 예정 |
-| 3회차 | [기록 보기](./record_3rd.md) | 예정 |
+| 1회차 | [백준 빙고 내기](record/record_1st.md) | 3등 |
+| 2회차 | [백준 빙고 내기](record/record_2nd.md) | - |
+| 3회차 | [코딩 애플 HTML/CSS 강의](record/record_3rd.md) | ~4강 수강 완료 |
 | 4회차 | [기록 보기](./record_4th.md) | 예정 |
