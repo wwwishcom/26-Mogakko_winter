@@ -48,8 +48,30 @@ HTML은 <태그>로 작성한다.
 위처럼 태그 안에 태그를 넣는 식으로 구성하면 가능하다!
 
 ### [2강] 과제
-<img width="759" height="423" alt="image" src="https://github.com/user-attachments/assets/4573ea4a-e8b5-4062-a125-79775cef3eef" />
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
 
+<h3>사과팔아요</h3>
+<p>안녕하세요</p>
+<button>버튼임</button>
+
+<ol>
+    <li>항목1</li>
+    <li>항목2</li>
+</ol>
+
+<a href="https://google.com">링크임</a>
+<img src="apple.jpeg">
+
+</body>
+</html>
+```
 실제로 과제를 수행한 코드이다.
 
 코드를 실행시키면
