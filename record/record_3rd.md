@@ -28,3 +28,69 @@ HTML은 <태그>로 작성한다.
 <img width="959" height="223" alt="image" src="https://github.com/user-attachments/assets/d804c3b7-48ba-4be7-b63a-a311520c6fb3" />
 
 위처럼 태그 안에 태그를 넣는 식으로 구성하면 가능하다!
+
+---
+
+## Markdown과 HTML 비교
+
+Github를 25년도부터 사용했던 나는 Github의 문법이 HTML과 유사한 것 같아, 좀 더 알아보기로 하였다.
+
+GitHub에서 사용하는 Markdown 문법은 실제로 HTML로 변환된다.
+
+### 제목
+
+| Markdown | HTML | 
+|----------|------|
+| `# 제목` | `<h1>제목</h1>` |
+| `## 제목` | `<h2>제목</h2>` |
+| `### 제목` | `<h3>제목</h3>` |
+
+### 텍스트 스타일
+
+| Markdown | HTML | 결과 |
+|----------|------|------|
+| `**굵게**` | `<strong>굵게</strong>` | **굵게** |
+| `*기울임*` | `<em>기울임</em>` | *기울임* |
+
+### 링크
+
+| Markdown | HTML |
+|----------|------|
+| `[텍스트](url)` | `<a href="url">텍스트</a>` |
+
+### 이미지
+
+| Markdown | HTML |
+|----------|------|
+| `![설명](url)` | `<img src="url" alt="설명">` |
+
+### 리스트
+
+**순서 없는 리스트:**
+
+| Markdown | HTML |
+|----------|------|
+| `- 항목` | `<ul><li>항목</li></ul>` |
+
+**순서 있는 리스트:**
+
+| Markdown | HTML |
+|----------|------|
+| `1. 항목` | `<ol><li>항목</li></ol>` |
+
+### Markdown에서 HTML 직접 사용
+
+Markdown 파일(.md) 안에서 HTML을 바로 사용할 수 있다.
+```markdown
+# 마크다운 제목
+
+일반 텍스트이다.
+
+<div align="center">
+  <img src="image.jpg" width="500">
+</div>
+
+다시 마크다운이다.
+```
+
+이렇게 두 문법을 섞어서 사용 가능하다!
