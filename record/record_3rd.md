@@ -88,7 +88,9 @@ HTML은 <태그>로 작성한다.
 
 ## Markdown과 HTML 비교
 
-Github를 25년도부터 사용했던 나는 Github의 문법이 HTML과 유사한 것 같아, 좀 더 알아보기로 하였다.
+Github를 25년도부터 사용했지만 무념무상으로 썼던 나는 
+
+Github의 문법이 HTML과 유사한 것 같아, 좀 더 알아보기로 하였다.
 
 특히,
 <img width="1376" height="207" alt="image" src="https://github.com/user-attachments/assets/ec468f31-4820-4e76-bb9c-77f42449b548" />
