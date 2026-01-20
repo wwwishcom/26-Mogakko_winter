@@ -1,3 +1,14 @@
+## [1강] HTML 기초와 개발환경 셋팅
+- HTML은 Hypertext Markup Language의 약자
+- 자료의 구조를 표현하기 위한 언어
+<img width="929" height="487" alt="image" src="https://github.com/user-attachments/assets/7d2f2969-801f-47c7-a41d-3fbe6fa28d9a" />
+
+위는 HTML 파일의 기본 템플릿이다.
+
+<head> 내부엔 사이트 생성에 필요한 인코딩형식,사이트제목,css나 js파일 등
+
+<body> 내부엔 실제 웹사이트에서 보여줄 내용 등이 있어야 한다.
+    
 ## HTML 기본 태그로 글 작성해보기
 오늘은 백준 빙고내기가 아닌 코딩애플에서의 HTML/CSS 강의를 듣고 정리하는 것으로 모각코 활동을 하였다.
 
