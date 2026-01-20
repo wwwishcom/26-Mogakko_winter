@@ -184,34 +184,166 @@ Markdown 파일(.md) 안에서 HTML을 바로 사용할 수 있다.
    다만 웹은 HTML이 필수다보니, 기초가 HTML로 시작된 것이다.
 
 ## [3강] 기본적인 웹페이지 스타일링
-거의 모든 태그는 style="스타일값;" 이라는 속성을 열 수 있다.
+
+거의 모든 태그는 `style="스타일값;"` 이라는 속성을 열 수 있다.
 여러개 사용시 뒤로 쭉 스타일값을 나열해주면 되지만 세미콜론을 까먹으면 안 된다.
 
+### style 속성 사용 예시
+```html
+<p style="color: blue;">파란색 글씨</p>
+<h1 style="font-size: 30px;">큰 제목</h1>
+```
+
+### 자주 사용하는 CSS 스타일 속성들
+
+| 속성 | 설명 | 예시 |
+|------|------|------|
+| `color` | 글자 색상 | `color: red;` |
+| `font-size` | 글자 크기 | `font-size: 20px;` |
+| `font-weight` | 글자 굵기 | `font-weight: bold;` |
+| `text-align` | 글자 정렬 | `text-align: center;` |
+| `background-color` | 배경색 | `background-color: yellow;` |
+
+### 여러 스타일 동시 적용
+```html
+<p style="color: red; font-size: 20px; font-weight: bold;">
+  빨간색, 크고, 굵은 글씨
+</p>
+```
+
+**주의사항:** 세미콜론(`;`)으로 각 스타일을 구분해야 한다!
+
+---
+
 ## [4강] CSS 파일 만들고 첨부하는 법
-클래스 selector는
-```html
-.클래스명{ }
-```
-이렇게 적을 수 있고 모든 class="클래스명"을 가진 요소에 스타일을 적용가능하다.
 
-아이디 selector는 
-```html
-#아이디명 { }
-```
-이렇게 적을 수 있고 모든 id="아이디명" 속성을 가진 요소에 스타일을 적용가능하다.
+### HTML에 직접 스타일 작성의 문제점
 
-태그 selector는 
-```html
-p { 스타일~~ }
-```
-이렇게 적을 수 있고 모든 <p> 태그에 스타일을 적용가능하다.
+매번 HTML 태그마다 `style=""`을 쓰면:
+- 코드가 너무 길어짐
+- 같은 스타일을 반복해서 작성
+- 수정할 때 일일이 찾아서 고쳐야 함
 
-``` md    
-# 셀렉터의 우선순위
+### 해결책: CSS 파일 분리
+
+**1단계: CSS 파일 만들기**
+
+`style.css` 파일을 만든다:
+```css
+p {
+  color: blue;
+  font-size: 16px;
+}
+
+h1 {
+  color: red;
+  font-size: 30px;
+}
+```
+
+**2단계: HTML에 CSS 파일 첨부**
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>제목</h1>
+  <p>본문</p>
+</body>
+</html>
+```
+
+`<link>` 태그의 속성:
+- `href`: CSS 파일 경로
+- `rel="stylesheet"`: 이 파일이 스타일시트임을 알린다
+
+### CSS 셀렉터 (Selector)
+
+특정 요소들을 선택해서 스타일을 적용하는 방법
+
+#### 1. 태그 셀렉터
+```css
+p {
+  color: blue;
+}
+```
+모든 `<p>` 태그에 적용
+
+#### 2. 클래스 셀렉터
+```html
+<p class="important">중요한 문단</p>
+<p class="important">또 다른 중요한 문단</p>
+```
+```css
+.important {
+  color: red;
+  font-weight: bold;
+}
+```
+`class="important"`를 가진 모든 요소에 적용
+
+클래스 selector는 `.클래스명{ }` 이렇게 적을 수 있고 모든
+`class="클래스명"`을 가진 요소에 스타일을 적용가능하다.
+
+#### 3. 아이디 셀렉터
+```html
+<p id="special">특별한 문단</p>
+```
+```css
+#special {
+  color: green;
+  font-size: 20px;
+}
+```
+`id="special"`를 가진 요소에 적용
+
+아이디 selector는 `#아이디명 { }` 이렇게 적을 수 있고 모든
+`id="아이디명"` 속성을 가진 요소에 스타일을 적용가능하다.
+
+**클래스 vs 아이디 차이점:**
+- 클래스: 여러 요소에 같은 이름 사용 가능
+- 아이디: 페이지에서 딱 하나만 사용 (유일해야 함)
+
+태그 selector는 `p { 스타일~~ }` 이렇게 적을 수 있고 모든
+`<p>` 태그에 스타일을 적용가능하다.
+
+### CSS 우선순위
+
+같은 요소에 여러 스타일이 적용되면 어떤 게 적용될까?
+```html
+<p class="text" id="main" style="color: black;">글씨</p>
+```
+```css
+p { color: blue; }           /* 1점 */
+.text { color: red; }         /* 10점 */
+#main { color: green; }       /* 100점 */
+```
+
+#### 셀렉터의 우선순위
 (점수가 높을수록 더 우선 적용됨)
 
-style="" (1000점)
-#id (100점)
-.class (10점)
-p (1점)
+1. `style=""` 직접 작성: **1000점** ⭐ 최우선
+2. `#id` 셀렉터: **100점**
+3. `.class` 셀렉터: **10점**
+4. 태그 셀렉터: **1점**
+
+위 예시의 결과는? → **검은색(black)** (style 속성이 1000점으로 가장 높음)
+
+#### 점수 계산 예시
+```css
+p.text { }              /* 1 + 10 = 11점 */
+#main p { }             /* 100 + 1 = 101점 */
+.text.important { }     /* 10 + 10 = 20점 */
 ```
+
+#### !important (최종 병기)
+```css
+p {
+  color: blue !important;
+}
+```
+`!important`를 붙이면 모든 우선순위를 무시하고 최우선 적용된다
+
+하지만 남용하면 관리가 어려워지니 꼭 필요할 때만 사용해야한다!
