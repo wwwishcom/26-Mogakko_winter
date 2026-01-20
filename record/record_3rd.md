@@ -68,7 +68,14 @@ HTML은 <태그>로 작성한다.
 
 Github를 25년도부터 사용했던 나는 Github의 문법이 HTML과 유사한 것 같아, 좀 더 알아보기로 하였다.
 
-GitHub에서 사용하는 Markdown 문법은 실제로 HTML로 변환된다.
+특히,
+<img width="1376" height="207" alt="image" src="https://github.com/user-attachments/assets/ec468f31-4820-4e76-bb9c-77f42449b548" />
+
+깃허브에서 사진을 넣을 때 위와 같이 마크다운을 작성하는데 
+
+Github Markdown에서 이미지를 넣을 때 사용하는 문법이 실제로 HTML <img> 태그 자체인지 궁금하여 이를 비교해보기로 했다.
+
+실제로, GitHub에서 사용하는 Markdown 문법은 HTML로 변환된다.
 
 ### 제목
 
