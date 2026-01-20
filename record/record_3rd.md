@@ -47,6 +47,21 @@ HTML은 <태그>로 작성한다.
 
 위처럼 태그 안에 태그를 넣는 식으로 구성하면 가능하다!
 
+### [2강] 과제
+<img width="1489" height="1069" alt="image" src="https://github.com/user-attachments/assets/4573ea4a-e8b5-4062-a125-79775cef3eef" />
+
+실제로 과제를 수행한 코드이다.
+
+코드를 실행시키면
+<img width="1013" height="733" alt="image" src="https://github.com/user-attachments/assets/97365e00-bd2b-4bfa-bfed-dd78dfa3fa33" />
+
+이러한 창이 뜨고
+
+링크임을 누르면
+<img width="1006" height="1246" alt="image" src="https://github.com/user-attachments/assets/8ed1900a-b32a-4495-9cd3-c4dba5f039e1" />
+
+구글로 이동한다.
+
 ---
 
 ## Markdown과 HTML 비교
