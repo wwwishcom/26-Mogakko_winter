@@ -18,3 +18,8 @@ HTML은 <태그>로 작성한다.
 
 ### 기본 태그 목록
 <img width="953" height="378" alt="image" src="https://github.com/user-attachments/assets/b750adb0-6f10-446b-8ba0-50c84d7fa6f5" />
+
+1. 태그를 열었으면 </태그명>으로 닫아야한다.
+2. 닫지 않아도 되는 <img> 같은 태그도 몇 개 존재한다.
+3. 특정 태그는 안에 href=" ", src=" " 이런 속성을 집어넣어서 추가정보를 기입가능하다.
+    href는 클릭시 이동할 링크를 기입가능하고 src는 파일 경로를 기입가능하다.
