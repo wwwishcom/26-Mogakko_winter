@@ -219,6 +219,13 @@ Markdown 파일(.md) 안에서 HTML을 바로 사용할 수 있다.
 
 **주의사항:** 세미콜론(`;`)으로 각 스타일을 구분해야 한다!
 
+### 이미지 가운데 정렬하는 방법
+```HTML
+display:block;
+margin-left:auto;
+margin-right:auto;
+```
+
 ---
 
 ## [4강] CSS 파일 만들고 첨부하는 법
