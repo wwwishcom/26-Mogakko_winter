@@ -9,6 +9,8 @@
 
 지난 모각코 회차에서 4강까지 수강했기 때문에 5강부터 이어서 수강하고, 이에 대한 정리본을 써보도록 하겠다.
 
+이번 회차에서는 5강부터 10강까지의 정리본을 작성해볼 것이다.
+
 ## [5강] 웹레이아웃의 기초 : div를 이용한 네모네모 박스 디자인
 <img width="1293" height="874" alt="image" src="https://github.com/user-attachments/assets/e48fd0b4-bb7a-4d3a-aa6b-152d01feee44" />
 
