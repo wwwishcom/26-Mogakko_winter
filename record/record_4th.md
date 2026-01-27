@@ -118,6 +118,8 @@ width/height 안에 padding/border까지 포함된다.
    - width/height 적용 O
    - 버튼/배지 같은 UI 만들 때 유용
 
+---
+
 ## [6강] 레이아웃 만들기 1 : 호환성 좋은 float
 <img width="1281" height="735" alt="image" src="https://github.com/user-attachments/assets/cb802834-9b25-453b-864e-30b4fddef324" />
 
@@ -170,3 +172,24 @@ float를 썼으면 까먹지 말고 항상 넣어야한다.
 
 참고로 float : none 이것도 추가해주는 게 나중에 생길 버그 예방차원에서 좋다고 한다.
 
+### float 문제점 요약
+float는 요소를 붕 띄워 정렬하지만, 부모 요소가 자식의 높이를 인식하지 못하는 문제가 발생한다.
+
+그래서 float 다음에 오는 요소들이 레이아웃에 영향을 받는다.
+
+### 레이아웃 만들 때 실전 팁
+1) 레이아웃은 "큰 박스 -> 작은 박스"
+   - 레이아웃을 만들 때는 항상:
+     1. 전체 wrapper
+     2. header/body/footer
+     3. body 안에서 left/right
+     4. 그 안의 세부 요소들
+    이 순서로 div를 쪼개면 어떤 디자인도 구현 가능하다.
+2) 디버깅은 border로 한다.
+   - 레이아웃이 이상하면 일단 border를 걸어서 눈으로 확인한다.
+     ```html
+     * {
+        border: 1px solid red;
+      }
+     ```
+     원인을 찾았으면 지운다.
