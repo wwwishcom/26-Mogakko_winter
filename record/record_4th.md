@@ -233,3 +233,14 @@ HTML/CSS는 단순히 예쁜 화면을 만드는 기술이 아니라
   서버는 보통 JSON 형태로 데이터를 내려주고,
   
   클라이언트(브라우저)가 그걸 화면으로 렌더링한다.
+
+---
+
+## [7강] 레이아웃 만들기 2 : 귀찮은 inline-box
+<img width="1045" height="280" alt="image" src="https://github.com/user-attachments/assets/916d90b2-3a45-4d2b-a6a1-38d0379f8aa1" />
+
+오늘 과제 : html/css 짜서 위와 비슷하게 만들어오자
+
+과제 1차 진행본 :
+
+<img width="1872" height="584" alt="image" src="https://github.com/user-attachments/assets/d1171ed0-05d5-4635-8472-14c568dbe06a" />
