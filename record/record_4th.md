@@ -178,6 +178,8 @@ float는 요소를 붕 띄워 정렬하지만, 부모 요소가 자식의 높이
 그래서 float 다음에 오는 요소들이 레이아웃에 영향을 받는다.
 
 ### 레이아웃 만들 때 실전 팁
+<img width="1418" height="1040" alt="image" src="https://github.com/user-attachments/assets/0469e37f-d377-4bdc-9ae4-50f835922fdd" />
+
 1) 레이아웃은 "큰 박스 -> 작은 박스"
    레이아웃을 만들 때는 항상:
      1. 전체 wrapper
